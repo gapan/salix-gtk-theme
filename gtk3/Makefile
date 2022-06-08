@@ -7,7 +7,7 @@ all:
 
 .PHONY: clean
 clean:
-	rm -f Salix.css
+	rm -f *.css
 
 .PHONY: install
 install: all
