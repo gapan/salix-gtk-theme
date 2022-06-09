@@ -33,5 +33,5 @@ install-gtk2:
 
 .PHONY: srcpkg
 srcpkg:
-	git arhive --prefix=salix-gtk-theme/ master | xz > ../salix-gtk-theme.tar.xz
+	git archive --prefix=salix-gtk-theme/ master | xz > ../salix-gtk-theme.tar.xz
 
